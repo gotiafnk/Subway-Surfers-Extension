@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Subway Surfers Gameplay",
+  "version": "1.0",
+  "description": "Abre una ventana en formato 9:16 reproduciendo un video local en bucle.",
+  "action": {
+    "default_title": "Abrir Subway Surfers Gameplay",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": []
+}
